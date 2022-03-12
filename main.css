@@ -9,7 +9,7 @@ body {
 }
 
 .main-page-container {
-    background: url(/img/hero.png) center top no-repeat, url(/img/bottom-pic.png) center bottom 306px no-repeat;
+    background: url(./img/hero.png) center top no-repeat, url(./img/bottom-pic.png) center bottom 306px no-repeat;
 
 }
 
@@ -361,7 +361,7 @@ p {
     content: "";
     width: 490px;
     height: 505px;
-    background: url(/img/cameraman.png) center center / cover no-repeat;
+    background: url(./img/cameraman.png) center center / cover no-repeat;
 }
 
 .about__desc {
@@ -445,33 +445,33 @@ p {
 }
 
 .social__item-icon-telegram .socials__link {
-    background-image: url(/img/telegram.png);
+    background-image: url(./img/telegram.png);
 }
 
 .social__item-icon-telegram .socials__link:hover {
-    background-image: url(/img/t2.png);
+    background-image: url(./img/t2.png);
 }
 
 .social__item-icon-vk .socials__link {
-    background-image: url(/img/vk.png)
+    background-image: url(./img/vk.png)
 }
 
 .social__item-icon-vk .socials__link:hover {
-    background-image: url(/img/vk2.png)
+    background-image: url(./img/vk2.png)
 }
 
 .social__item-icon-facebook .socials__link {
-    background-image: url(/img/f.png)
+    background-image: url(./img/f.png)
 }
 .social__item-icon-facebook .socials__link:hover {
-    background-image: url(/img/f2.png)
+    background-image: url(./img/f2.png)
 }
 
 .social__item-icon-instagram .socials__link {
-    background-image: url(/img/in.png)
+    background-image: url(./img/in.png)
 }
 .social__item-icon-instagram .socials__link:hover {
-    background-image: url(/img/in2.png)
+    background-image: url(./img/in2.png)
 }
 
 .contacts__footer {
