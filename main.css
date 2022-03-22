@@ -10,7 +10,11 @@ body {
 
 .main-page-container {
     background: url(./img/hero.png) center top no-repeat, url(./img/bottom-pic.png) center bottom 306px no-repeat;
-    width: ;
+}
+
+.welcome-page-container {
+    background: url(./img/bg.jpg) center no-repeat;
+    height: 100%;    
 }
 
 a {
@@ -32,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .attribute {
-    font-weight: bold;
+    font-weight: 700;
     color: black;
 }
 
@@ -88,10 +92,6 @@ body, html {
     margin-right: 240px;    
 }
 
-.menu {
-    
-}
-
 .menu__item {
     display: inline-block;
     vertical-align: middle;
@@ -119,13 +119,52 @@ body, html {
 
 .contacts__phone {
     text-decoration: none;
-    font-size: 26px;    
+    font-size: 26px;  
+    display: block;  
+}
+
+.contacts__dropdown {
+    position: relative;  
+    display: inline-block;  
+}
+
+.contacts__dropdown:hover .contacts__dropdown-menu {
+    display: block;
+}
+
+.contacts__dropdown-menu {
+    position: absolute;
+    background: #d1d1d1;
+    border-radius: 5px;
+    padding: 17px;
+    width: 160px;
+    top: 100%;
+    display: none;
+    margin-top: 10px;
+    text-align: left;
+    right: 0;
+}
+
+.contacts__dropdown-menu:before {
+    position: absolute;
+    content:"";
+    display: block;
+    height: 30px;
+    left: 0;
+    right: 0;
+    top: -29px;
 }
 
 .contacts__dropdown-title {
     font-size: 13px;
     text-decoration: underline;
     color: #FF3D00    
+}
+
+.contacts__dropdown-item {
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
 }
 
 .hero__content {
@@ -191,6 +230,7 @@ body, html {
 .button__about {
     padding: 18px 40px;
 }
+
 
 .offers {
     display: flex;
@@ -654,3 +694,44 @@ body, html {
 .inner-footer {
     margin-top: auto;
 }
+
+/* Welcome Page */
+
+.welcome-page__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;       
+}
+
+.welcome-page__wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+.welcome-page__content {
+    animation: jackInTheBox 2s;
+    animation-delay: .5s;
+}
+
+.welcome-page__bg {
+    position: absolute;  
+    width: 60%;
+    object-fit: cover;
+} 
+
+.welcome-page__logo {
+    margin-bottom: 40px;
+}
+
+.logo__pic-max-size {
+    height: 150px;
+}
+
+
+
+
+
+ 
