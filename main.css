@@ -138,7 +138,11 @@ button {
 
 .contacts__dropdown:hover .contacts__dropdown-menu {    
     left: -65px;   
-    opacity: 1;
+    opacity: 1;   
+}
+
+.contacts__dropdown:hover .contacts__dropdown-title {    
+    text-decoration: none;   
 }
 
 .contacts__dropdown-menu {
@@ -171,10 +175,10 @@ button {
     position: absolute;
     content:"";
     display: block;
-    height: 30px;
+    height: 15px;
     left: 0;
     right: 0;
-    top: -30px;
+    top: -15px;
 }
 
 .contacts__dropdown-title {
